@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Using Javascript!
+	</title>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body onload="alert('Welcome, Friend!')" style="background-color: gray">
+
+
+	<h1 id="main_heading" style="text-align: center; color: yellow;"> Cockatiels</h1>
+
+	 <button type="button" onclick="document.getElementById('main_heading').style.fontSize='100px'"> Change My Size!
+	 </button> 
+	<h2 id="summary_heading"> Basic Summary (Wikipedia) </h2>
+	<p onmouseenter="style.backgroundColor='yellow'" onmouseleave="style.backgroundColor='#11ffee00'" id="summary_paragraph" style="color: white;"> The cockatiel (Nymphicus hollandicus), is a bird that is a member of the cockatoo family endemic to Australia. They are prized as household pets and companion parrots throughout the world and are relatively easy to breed. As a caged bird, cockatiels are second in popularity only to the budgerigar. The cockatiel is the only member of the genus Nymphicus. It was previously considered a crested parrot or small cockatoo; however, more recent molecular studies have assigned it to its own subfamily, Nymphicinae. It is, therefore, now classified as the smallest of the Cacatuidae (cockatoo family). Cockatiels are native to Australia, and favour the Australian wetlands, scrublands, and bush lands.  </p>
+	<button type="button" onclick="document.getElementById('summary_paragraph').style.fontFamily='Calibri'"> Change My Font Style!
+	</button> 
+	<h2 id="summary_heading2"> Some Images: </h2>
+	<h3 id="pic1heading"> <strong> Picture 1 </strong></h3>
+	<img oncontextmenu="alert('Picture Is Copyrighted!')" id="img1" src="c1.jpg" alt="c1">
+	<hr>
+	<button onclick="document.getElementById('img1').style.visibility='hidden'"> Hide Me </button>
+	<p onmouseenter="style.backgroundColor='yellow'" onmouseleave="style.backgroundColor='#11ffee00'" id="p1">Here we see a human petting their Cokatiel!</p>
+	<button type="button" onclick="document.getElementById('p1').style.backgroundColor='yellow'" >Highlight Me!	</button>
+	<hr>
+	<h3 id="pic2heading"> <strong> Picture 2 </strong></h3>
+	<img id="img2" src="c2.png" alt="c2">
+	<p onmouseenter="style.backgroundColor='yellow'" onmouseleave="style.backgroundColor='#11ffee00'" id="p2">Cokatile protecting her eggs</p>
+	<button type="button" onclick="document.getElementById('p2').style.backgroundColor='yellow'" >Highlight Me!	</button>
+	<hr>
+	<h3 id="pic3heading"> <strong> Picture 3 </strong></h3>
+	<img id="img3" src="c3.jpg" alt="c3">
+	<p onmouseenter="style.backgroundColor='yellow'" onmouseleave="style.backgroundColor='#11ffee00'" id="p3">Different Kinds Of Cockatiels</p>
+	<button type="button" onclick="document.getElementById('p3').style.backgroundColor='yellow'" >Highlight Me!	</button>
+	<hr>
+	<h3 id="pic4heading"> <strong> Picture 4 </strong></h3>
+	<img id="img4" src="c4.jpg" alt="c4">
+	<p onmouseenter="style.backgroundColor='yellow'" onmouseleave="style.backgroundColor='#11ffee00'" id="p4">My very own Cockatiel(Toothless is his name!)</p>
+	<button type="button" onclick="document.getElementById('p4').style.backgroundColor='yellow'" >Highlight Me!	</button>
+	<hr>
+	<h3 id="pic5heading"> <strong> Picture 5 </strong></h3>
+	<img id="img5" src="c5.jpg" alt="c5">
+	<p onmouseenter="style.backgroundColor='yellow'" onmouseleave="style.backgroundColor='#11ffee00'" id="p5">Cockatiels have to lear how to fly if they were never in the wild!</p>
+	<button type="button" onclick="document.getElementById('p5').style.backgroundColor='yellow'" >Highlight Me!	</button>
+	<hr>
+	<h1 id="form_heading" style="text-align: center;color: yellow;"> Want a Cockatiel? Fill up this form</h1>
+
+	<form onclick="alert('Thanks For Wanting One')" id="frm1">
+ 	How many do you want?<br>
+  	<input type="number" name="numcockatiel" value="1">
+  	<br>
+  	Full Name:<br>
+  	<input type="text" name="fullname">
+  	<br>
+  	Contact number; we will phone you back<br>
+  	<input type="text" name="number">
+  	<br><br>
+  	<input type="submit" value="Submit">
+  	
+	</form> 
+	<h2>Male Vs Female</h2>
+  	<h3 id="malepichead"> <strong> Male Picture </strong></h3>
+  	<img id="genpics" src="fem.png" alt="malepic">
+  	<button onclick="document.getElementById('genpics').src='male.png'"> Click to see a male </button>
+  	<button onclick="document.getElementById('genpics').src='fem.png'"> Click to see a female </button>
+
+  	<h2>Ages</h2>
+  	<h3 id="babyold"> <strong> Baby Cockatiel, Hover over to see it grow! </strong></h3>
+  	<img onmouseenter="src='old.png'" src="baby.png" alt = "baby" onmouseleave="src='baby.png'">
+</body>
+</html>
